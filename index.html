@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="このアプリは、モンスト内コンテンツ、封印の玉楼をより楽しくするためのものです">
+        <title>玉楼ランダマイザー</title>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:700" rel="stylesheet">
+        <link rel="stylesheet" href="modaal.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="modaal.js"></script>
+        <link rel="shortcut icon" href="icon.ico">
+        <style>
+        @font-face {
+        font-family: 'Noto Sans JP', sans-serif;
+        }
+        body{
+          text-align: center;
+          width:700px;
+          height:100%;
+          margin-right: auto;
+          margin-left : auto;
+          border: 10px solid #333;
+          border-radius: 10px;
+          font-family: 'Noto Sans JP', sans-serif;
+        }
+        </style>
+    </head>
+    <body>
+      <img src="logo.png" alt="logo" width="200px" height="200px" class="wrap">
+
+      <br>
+
+      <h1>玉楼ランダマイザー</h>
+
+      <br>
+
+<a href="#modal" class="modal">使い方</a>
+<div id="modal" style="display:none;">
+	<h1>玉楼ランダマイザーの使い方</h>
+
+  <br>
+
+  <h3>1.シャッフル開始を押す。</h>
+
+  <br>
+
+  <h3>2.モンスト内の玉楼画面を確認する(左端→右端の順で1から5)</h>
+
+  <br>
+
+  <h3>3.いつも通りプレイする。</h>
+</div>
+
+<br>
+
+     <input type="button" value="シャッフル開始" onclick="random();"/>
+
+<br>
+
+<input type="button" value="やり直し" onclick="window.location.reload();"/>
+
+<div id="output"></div>
+
+<br>
+
+    <div id="copy">
+     <h4>© 2019 GUTSMINE</h>
+    </div>
+    <script type="text/javascript" src="random.js"></script>
+
+    </body>
+</html>
