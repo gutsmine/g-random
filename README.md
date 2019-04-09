@@ -26,8 +26,7 @@
 
 <br>
 
-### このアプリは、MITライセンスに基づいてライセンスされています。
-### 詳しくはリポジトリ内の[LICENSE](https://github.com/gutsmine/g-random/blob/master/LICENSE)をご覧ください。
+This software is released under the MIT License, see [LICENSE](https://github.com/gutsmine/g-random/blob/master/LICENSE).
 
 <br>
 
