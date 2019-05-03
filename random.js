@@ -19,3 +19,8 @@ target = document.getElementById("output");
 target.innerHTML = "" + num +" count " + " => " + numList[num];
 num++;
 }
+function reset() {
+ var num = 0;
+ target = document.getElementById("output");
+  target.innerHTML = "";
+}
