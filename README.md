@@ -30,4 +30,4 @@ This software is released under the MIT License, see [LICENSE](https://github.co
 
 <br>
 
-## (c) 2019 GUTSMINE
+## Copyright (c) 2019 gutsmine-tech
